@@ -45,8 +45,33 @@
 
 <% else %>
 
-<h1>Sign In/Sign Up</h1>
-to use the app...
+
+<div class="card bg-light mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="https://i.ibb.co/d5rYgzD/292c0c26-2da3-4bcf-9491-ab1d7ac32fe4.gif" border="0" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        
+        <h1 class="card-title" style="font-family: 'Luckiest Guy', cursive;"> <span class="text-primary">Welcome</span> <span class="text-success"> To </span> <span class="text-danger"> Ciri </span> <span class="text-warning"> and </span> <span style="color:purple">Friends </span> <span style="color:darkturquoise;"> App </span></h1>
+        
+        <div class="btn-group btn-group-lg" role="group" aria-label="Buttons"> <h1><%= link_to "Sign Up",new_user_registration_path, class:"btn btn-info btn-lg mr-3" %></h1>   <br/><br/>
+         
+         <h1><%= link_to "Sign In", new_user_session_path, class:"btn btn-primary btn-lg" %></h1></div>
+        
+       
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+</style>
+
 <% end %>
 
 
