@@ -163,6 +163,9 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
+    rails-healthcheck (1.4.0)
+      actionpack
+      railties
     rails-html-sanitizer (1.4.3)
       loofah (~> 2.3)
     railties (7.0.3.1)
@@ -239,6 +242,7 @@ DEPENDENCIES
   pg (~> 1.4, >= 1.4.3)
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
+  rails-healthcheck
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
