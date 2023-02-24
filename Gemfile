@@ -9,7 +9,7 @@ gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 
 gem "sprockets-rails"
 
-
+gem 'rails-healthcheck'
 
 
 gem "puma", "~> 5.0"
