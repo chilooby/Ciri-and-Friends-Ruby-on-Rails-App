@@ -31,7 +31,7 @@ Check it out at http://ciriandfriendsapp.herokuapp.com/
 
 ## Credits
 
-This app was built by [Your Name](https://github.com/your-username)
+This app was built by [trastephenson](https://github.com/trastephenson)
 
 ## License
 
