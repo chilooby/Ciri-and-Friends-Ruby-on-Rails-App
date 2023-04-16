@@ -20,7 +20,7 @@ gem "importmap-rails"
 
 gem 'turbo-rails', '~> 1.0', '>= 1.0.1'
 
-gem "sqlite3", "~> 1.4"
+
 
 
 gem "stimulus-rails"
