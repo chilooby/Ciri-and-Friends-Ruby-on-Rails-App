@@ -4,7 +4,7 @@ Ciri and Friends is a small CRUD app built with Ruby on Rails that allows you to
 
 Check it out at http://ciriandfriendsapp.herokuapp.com/
 
-![Ciri and Friends Preview](https://i.imgur.com/6L5U6z5.png)
+![Ciri and Friends Preview](https://i.ibb.co/wBGtTvz/ciri.png)
 
 ## Installation
 
