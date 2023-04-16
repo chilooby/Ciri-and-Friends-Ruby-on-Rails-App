@@ -1,10 +1,10 @@
-# Ciri and Friends
+# Ciri and Friends Rails App
 
 Ciri and Friends is a small CRUD app built with Ruby on Rails that allows you to create, read, update, and delete friends from a list. It's a simple project that's perfect for getting started with Ruby on Rails.
 
 Check it out at http://ciriandfriendsapp.herokuapp.com/
 
-<img src="https://i.ibb.co/wBGtTvz/ciri.png" alt="Ciri and Friends Preview" width="400"
+![Ciri and Friends Preview](https://i.ibb.co/wBGtTvz/ciri.png)
 
 ## Installation
 
