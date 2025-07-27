@@ -3,31 +3,14 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
-
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
-
-
 gem "sprockets-rails"
-
 gem 'rails-healthcheck'
-
-
 gem "puma", "~> 5.0"
-
-
 gem "importmap-rails"
-
-
 gem 'turbo-rails', '~> 1.0', '>= 1.0.1'
-
-gem "sqlite3", "~> 1.4"
-
-
 gem "stimulus-rails"
-
-
 gem "jbuilder"
-
 gem 'devise', '~> 4.8', '>= 4.8.1'
 
 # Use Redis adapter to run Action Cable in production
@@ -54,12 +37,12 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem "sqlite3", "~> 1.4"
 end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-  gem "sqlite3", "~> 1.4"
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
