@@ -18,5 +18,15 @@ module Friends
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    
+    # Override credentials to prevent encryption errors
+    def credentials
+      @credentials ||= ActiveSupport::EncryptedConfiguration.new(
+        content_path: nil,
+        key_path: nil,
+        env_key: nil,
+        raise_if_missing_key: false
+      )
+    end
   end
 end
