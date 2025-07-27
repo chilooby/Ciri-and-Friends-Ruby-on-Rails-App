@@ -21,11 +21,9 @@ module Friends
     
     # Override credentials to prevent encryption errors
     def credentials
-      @credentials ||= ActiveSupport::EncryptedConfiguration.new(
-        content_path: nil,
-        key_path: nil,
-        env_key: nil,
-        raise_if_missing_key: false
+      @credentials ||= OpenStruct.new(
+        secret_key_base: Rails.application.secret_key_base,
+        content: {}
       )
     end
   end
