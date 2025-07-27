@@ -20,6 +20,6 @@ module Friends
     # config.eager_load_paths << Rails.root.join("extras")
     
     # Disable credentials system to avoid encryption issues
-    config.credentials.content_path = nil
+    config.credentials = nil
   end
 end
