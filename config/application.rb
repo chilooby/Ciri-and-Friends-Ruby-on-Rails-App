@@ -18,8 +18,5 @@ module Friends
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    
-    # Disable credentials system to avoid encryption issues
-    config.credentials = nil
   end
 end
